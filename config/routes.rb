@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   end
   resources :visitors
 
-  get 'report/subjects', to: 'reports#subjects', as: 'report_subjects'
+  get 'reports/subjects', to: 'reports#subjects', as: 'report_subjects'
 end
