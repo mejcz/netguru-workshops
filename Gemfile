@@ -44,6 +44,8 @@ group :production do
 end
 
 group :test do
+  gem 'rake'
+  gem 'rspec'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
