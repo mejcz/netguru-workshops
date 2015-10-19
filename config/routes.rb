@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   end
   resources :teachers
   resources :visitors
+
+  get 'report/subjects', to: 'reports#subjects', as: 'report_subjects'
 end
