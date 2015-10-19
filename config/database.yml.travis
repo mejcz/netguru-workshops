@@ -1,9 +1,5 @@
-default: &default
+test:
   adapter:  postgresql
-  encoding: unicode
-  host:     localhost
-  pool: 5
-
-development:
-  <<: *default
+  username: postgres
   database: workshops_test
+  pool: 5
