@@ -11,5 +11,7 @@ Rails.application.routes.draw do
   end
   resources :visitors
 
+  resources :student_payments, only: %i(index)
+
   get 'reports/subjects', to: 'reports#subjects', as: 'report_subjects'
 end
