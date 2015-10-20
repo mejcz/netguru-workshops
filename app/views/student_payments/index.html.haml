@@ -1,0 +1,5 @@
+- breadcrumb :student_payments
+.payments
+  payments:
+  - student_payments.each do |student_payment|
+    .payment= render 'student_payment', student_payment: student_payment
